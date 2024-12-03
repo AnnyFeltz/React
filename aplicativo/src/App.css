@@ -1,0 +1,49 @@
+* {
+  margin: 0px; 
+}
+
+body {
+  background-color: blueviolet;
+}
+
+#Home {
+  background-color: aquamarine;
+  padding: 20px 40px 20px 40px;
+  color: orange;
+  margin: 30px;
+  border-radius: 100px;
+}
+
+#Sobre {
+  background-color: brown;
+  padding: 20px 40px 20px 40px;
+  color: aliceblue;
+  margin: 30px;
+  border-radius: 100px;
+}
+
+#Menu {
+  display: flex;
+  background-color: rgb(151, 120, 19);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 10px;
+  justify-content: center;
+  border: solid 3px rgb(187,146,12);
+}
+
+#Menu a{
+  text-decoration: none;
+  color: black;
+}
+
+#Menu li{
+  list-style: none;
+  background-color: aliceblue;
+  border-radius: 100px;
+  padding: 20px;
+  margin: 5px;
+  justify-content: center;
+}
