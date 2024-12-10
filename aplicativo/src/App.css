@@ -3,6 +3,7 @@
 }
 
 body {
+  width: 100%;
   background-color: blueviolet;
 }
 
@@ -10,7 +11,6 @@ body {
   background-color: aquamarine;
   padding: 20px 40px 20px 40px;
   color: orange;
-  margin: 30px;
   border-radius: 100px;
 }
 
@@ -18,19 +18,27 @@ body {
   background-color: brown;
   padding: 20px 40px 20px 40px;
   color: aliceblue;
-  margin: 30px;
   border-radius: 100px;
 }
 
+#Conteudo{
+  background-color: green;
+  padding: 30px;
+  height: fit-content;
+}
+
 #Menu {
-  display: block;
-  background-color: bisque;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.151);
   padding: 10px;
   font-size: 20px;
   text-align: center;
   border-radius: 30px;
   margin: 10px;
   justify-content: center;
+  justify-self: right;
+  height: fit-content;
+  grid-column: 6;
 }
 
 #Menu a{
@@ -39,22 +47,41 @@ body {
 }
 
 #Menu li{
+  display: flex;
   list-style: none;
   background-color: aliceblue;
   border-radius: 100px;
   padding: 20px;
   margin: 5px;
   justify-content: center;
+
 }
 
 #Cabecalho{
-
+  background-color: brown;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  padding: 0px 30px 0px 30px;
 }
 
 #Rodape {
-
+  background-color: aqua;
 }
 
-#Conteudo{
+#Galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+}
 
+#foto{
+  width: 100%;
+  height: auto;
+}
+
+#Logo{
+  grid-column: 2;
+  display: flex;
+  justify-self: left;
 }
