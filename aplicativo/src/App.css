@@ -1,5 +1,5 @@
 * {
-  margin: 0px; 
+  margin: 0px;
 }
 
 body {
@@ -14,6 +14,10 @@ body {
   border-radius: 100px;
 }
 
+#Home2 {
+  height: 500px;
+}
+
 #Sobre {
   background-color: brown;
   padding: 20px 40px 20px 40px;
@@ -21,7 +25,11 @@ body {
   border-radius: 100px;
 }
 
-#Conteudo{
+#Sobre2 {
+  height: 500px;
+}
+
+#Conteudo {
   background-color: green;
   padding: 30px;
   height: fit-content;
@@ -29,24 +37,22 @@ body {
 
 #Menu {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.151);
-  padding: 10px;
   font-size: 20px;
   text-align: center;
   border-radius: 30px;
   margin: 10px;
   justify-content: center;
-  justify-self: right;
-  height: fit-content;
-  grid-column: 6;
+  width: fit-content;
+  width: auto;
+  height: auto;
 }
 
-#Menu a{
+#Menu a {
   text-decoration: none;
   color: black;
 }
 
-#Menu li{
+#Menu li {
   display: flex;
   list-style: none;
   background-color: aliceblue;
@@ -54,15 +60,15 @@ body {
   padding: 20px;
   margin: 5px;
   justify-content: center;
-
+  width: 100px;
 }
 
-#Cabecalho{
+#Cabecalho {
+  display: flex;
   background-color: brown;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
   align-items: center;
-  padding: 0px 30px 0px 30px;
+  padding: 10px 50px 10px 100px;
+  justify-content: space-between;
 }
 
 #Rodape {
@@ -73,15 +79,30 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 30px;
+  justify-items: center;
+  align-items: center;
+  padding: 30px;
 }
 
-#foto{
-  width: 100%;
+#foto {
+  justify-content: center;
+  align-items: center;
+  width: 70%;
   height: auto;
 }
 
-#Logo{
+#Logo {
   grid-column: 2;
   display: flex;
   justify-self: left;
+  width: 180px;
+  height: auto;
 }
+
+#Contato {
+  display: flex;
+}
+
+#Bloco1 {}
+
+#Bloco2 {}

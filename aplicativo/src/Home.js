@@ -9,6 +9,9 @@ function Home() {
                 <h1>Bem-vindo à página Home!</h1>
                 <p>Esta é a página inicial.</p>
             </div>
+            <div id="Home2">
+                
+            </div>
         </div>
     );
 }export default Home;
