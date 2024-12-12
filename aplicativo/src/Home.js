@@ -7,11 +7,14 @@ function Home() {
         <div>
             <div id='Home'>
                 <h1>Bem-vindo à página Home!</h1>
-                <p>Esta é a página inicial.</p>
+                <p>Esta é a página inicial! Não tem muita coisa.</p>
             </div>
-            <div id="Home2">
-                
+
+            <div id='Foto'>
+                <img id='Imagem' src='/img/Home.jpg'></img>
+                <img id='Imagem' src='/img/Home2.jpg'></img>
+                <img id='Imagem' src='/img/Home3.jpg'></img>
             </div>
         </div>
     );
-}export default Home;
+} export default Home;

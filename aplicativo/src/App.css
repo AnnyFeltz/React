@@ -2,62 +2,68 @@
   margin: 0px;
 }
 
+@font-face {
+  font-family: "Comforta";
+  src: url('font/Comfortaa-Bold.ttf');
+}
+
 body {
   width: 100%;
-  background-color: blueviolet;
+  background-color: rgb(249, 164, 194);
+}
+
+p {
+  color: rgb(225, 64, 137);
 }
 
 #Home {
-  background-color: aquamarine;
+  font-family: "Comforta";
+  background-color: white;
   padding: 20px 40px 20px 40px;
-  color: orange;
+  color: rgb(176, 70, 118);
   border-radius: 100px;
-}
-
-#Home2 {
-  height: 500px;
+  box-shadow: rgba(135, 55, 83, 0.374) 0px 5px 10px 5px;
 }
 
 #Sobre {
-  background-color: brown;
+  font-family: "Comforta";
+  display: block;
+  justify-items: right;
+  background-color: white;
   padding: 20px 40px 20px 40px;
-  color: aliceblue;
+  color: rgb(176, 70, 118);
   border-radius: 100px;
-}
-
-#Sobre2 {
-  height: 500px;
+  box-shadow: rgba(135, 55, 83, 0.374) 0px 5px 10px 5px;
 }
 
 #Conteudo {
-  background-color: green;
+  background-image: url('img/backgroung.jpg');
+  background-repeat: repeat;
+  background-size: 200px;
   padding: 30px;
   height: fit-content;
 }
 
 #Menu {
   display: flex;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   border-radius: 30px;
-  margin: 10px;
   justify-content: center;
-  width: fit-content;
-  width: auto;
-  height: auto;
+  font-family: "Comforta";
 }
 
 #Menu a {
   text-decoration: none;
-  color: black;
+  color: rgb(192, 56, 117);
 }
 
 #Menu li {
   display: flex;
   list-style: none;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 100px;
-  padding: 20px;
+  padding: 10px;
   margin: 5px;
   justify-content: center;
   width: 100px;
@@ -65,14 +71,18 @@ body {
 
 #Cabecalho {
   display: flex;
-  background-color: brown;
+  background-color: rgb(249, 164, 194);
   align-items: center;
-  padding: 10px 50px 10px 100px;
-  justify-content: space-between;
+  padding: 10px;
+  justify-content: space-around;
 }
 
 #Rodape {
-  background-color: aqua;
+  display: block;
+  background-color: rgb(249, 164, 194);
+  justify-items: center;
+  color: rgb(192, 56, 117);
+  padding: 10px;
 }
 
 #Galeria {
@@ -82,6 +92,8 @@ body {
   justify-items: center;
   align-items: center;
   padding: 30px;
+  width: auto;
+  height: fit-content;
 }
 
 #foto {
@@ -92,17 +104,63 @@ body {
 }
 
 #Logo {
-  grid-column: 2;
-  display: flex;
-  justify-self: left;
-  width: 180px;
+  width: 120px;
   height: auto;
 }
 
 #Contato {
   display: flex;
+  justify-content: space-between;
 }
 
-#Bloco1 {}
+input {
+  width: 30vw;
+  color: rgb(176, 70, 118);
+}
 
-#Bloco2 {}
+textarea {
+  width: 30vw;
+  height: 10vw;
+}
+
+form {
+  font-family: "Comforta";
+  background-color: rgb(244, 228, 233);
+  padding: 20px;
+  color: rgb(176, 70, 118);
+  border-radius: 30px;
+  box-shadow: rgba(135, 55, 83, 0.374) 0px 5px 10px 5px;
+}
+
+#Imagem{
+  border: 10px rgb(249, 164, 194) solid;
+  border-radius: 50px;
+  width: 26vw;
+  box-shadow: rgba(135, 55, 83, 0.374) 0px 5px 10px 5px;
+}
+
+#Foto {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+label, input, textarea {
+  color: rgb(176, 70, 118);
+  margin: 5px;
+}
+
+iframe {
+  box-shadow: rgba(135, 55, 83, 0.374) 0px 5px 10px 5px;
+  border-radius: 30px;
+}
+
+/* FadeIn.css */
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}

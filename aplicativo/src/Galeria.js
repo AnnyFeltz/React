@@ -1,14 +1,14 @@
 import react from 'react';
 
-function Galeria(){
-    return(
+function Galeria() {
+    return (
         <div id='Galeria'>
-            <img id='foto' src='/img/foto1.png'/>
-            <img id='foto' src='/img/foto2.png'/>
-            <img id='foto' src='/img/foto3.png'/>
-            <img id='foto' src='/img/foto4.png'/>
-            <img id='foto' src='/img/foto5.png'/>
-            <img id='foto' src='/img/foto6.png'/>
+            <img id='Imagem' src='/img/Home.jpg' />
+            <img id='Imagem' src='/img/Sobre.jpg' />
+            <img id='Imagem' src='/img/Home2.jpg' />
+            <img id='Imagem' src='/img/Sobre2.jpg' />
+            <img id='Imagem' src='/img/Home3.jpg' />
+            <img id='Imagem' src='/img/Sobre3.jpg' />
         </div>
     );
 } export default Galeria;
