@@ -12,6 +12,7 @@ function Contato() {
                 <input placeholder='Digite aqui...' /><br />
                 <label>Mensagem: </label><br />
                 <textarea placeholder='Digite aqui...' /><br />
+                <input type='submit' id='Enviar'/><br/>
             </form>
 
             <iframe
