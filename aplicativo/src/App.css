@@ -163,13 +163,3 @@ iframe {
   box-shadow: rgba(135, 55, 83, 0.374) 0px 5px 10px 5px;
   border-radius: 30px;
 }
-
-/* FadeIn.css */
-.fade-in {
-  opacity: 0;
-  transition: opacity 2s ease-in-out;
-}
-
-.fade-in.visible {
-  opacity: 1;
-}
